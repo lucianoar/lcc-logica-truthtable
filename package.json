@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "prettier": "^1.11.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "scripts": {
+    "build": "yarn run prettier && webpack --mode production",
+    "prettier": "prettier --ignore-path .gitignore --no-config --write **/*.js"
+  }
+}
