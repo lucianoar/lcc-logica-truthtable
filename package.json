@@ -5,6 +5,7 @@
     "webpack-cli": "^2.0.10"
   },
   "scripts": {
+    "watch": "yarn run webpack -w --mode development",
     "build": "yarn run prettier && webpack --mode production",
     "prettier": "prettier --ignore-path .gitignore --no-config --write **/*.js"
   }
